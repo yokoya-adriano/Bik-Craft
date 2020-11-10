@@ -110,6 +110,10 @@ img {
   color: #fff;
 }
 
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
 /* Introdução interna */
 .introduction_intern {
   width: 100%;
@@ -216,7 +220,11 @@ img {
 
 .icons_products {
   background-color: #000;
-  padding: 20px 0 20px 45px;
+  padding: 20px;
+}
+
+.icons_products img {
+  margin: 0 auto;
 }
 
 .call {
