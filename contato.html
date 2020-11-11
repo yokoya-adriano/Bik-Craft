@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/contato.css" />
     <link rel="stylesheet" href="./css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
   </head>
   <body>
     <header class="header">
@@ -31,13 +34,15 @@
     <!-- Introdução -->
     <section class="introduction_intern contact_intern">
       <div class="container">
-        <h1>CONTATO</h1>
-        <p>Tire as suas dúvidas com a gente</p>
+        <h1 data-anime="400" class="fadeInDown">CONTATO</h1>
+        <p data-anime="800" class="fadeInDown">
+          Tire as suas dúvidas com a gente
+        </p>
       </div>
     </section>
 
     <!-- Orçamento -->
-    <section class="contact container">
+    <section data-anime="1200" class="fadeInDown contact container">
       <form id="form_orcamento" class="grid-8 contact_form">
         <label for="nome">Nome</label>
         <input type="text" id="nome" />
@@ -146,5 +151,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
