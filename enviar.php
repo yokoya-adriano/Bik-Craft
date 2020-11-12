@@ -9,7 +9,7 @@ require "./PHPMailer/src/SMTP.php";
   
 // Mudar Aqui o e-mail
 $email_envio = "adr.yokoya@gmail.com"; // E-mail do site (ex: contato@seusite.com)
-$email_pass = "@driano141"; // Senha do e-mail
+$email_pass = ""; // Senha do e-mail
 
 $site_name = "Bikcraft"; // Nome do Site
 $site_url = "www.bikcraft.com"; // URL do Site
